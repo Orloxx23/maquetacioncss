@@ -6,6 +6,16 @@
   --duration: 2s;
 }
 
+.dark{
+  background: var(--background) !important;
+  color: white !important;
+}
+
+.dark-nav{
+  background: var(--primary) !important;
+  transition: .3s;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -13,6 +23,7 @@ body {
   background: white;
   color: rgb(0, 0, 0);
   font-family: "Lato", sans-serif;
+  transition: .3s;
 }
 
 .page {
@@ -77,6 +88,12 @@ body {
   color: var(--text);
   text-decoration: none;
   font-weight: 300;
+}
+
+.dark-mode-button{
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .main-content {
